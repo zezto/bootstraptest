@@ -1,0 +1,10 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    font-size: 35px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 80px;
+}

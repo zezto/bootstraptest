@@ -1,0 +1,138 @@
+.jumbotron-fluid{
+  background-image: url("https://i.imgur.com/GRu291B.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  top: 10px;
+  background-position: center;
+  position: relative;
+  }
+.jumbotron-fluid h1{
+  position: relative;
+  margin: 0 auto;
+  font-size: 75px;
+  color: rgb(255, 106, 80);
+  border: rgb(53, 111, 130) 5px solid;
+  top: 200px;
+  width: 310px;
+  text-align: center;
+  padding-bottom: 15px;
+  }
+#why_choose_us {
+  padding-top: 15px;
+  background-color: white;
+  border-bottom: rgba(211, 211, 221, .5) solid 3px;
+  padding-bottom: 20px;
+}
+#why_choose_us h1{
+  color: rgb(255, 106, 80)
+}
+#why_choose_us li{
+  color: rgb(53, 111, 130)
+}
+#why_choose_us ul li{
+  list-style-type: none;
+  margin-left: -30px;
+}
+#services{
+  padding-top: 20px;
+}
+#services h2{
+  color: rgb(255, 106, 80);
+}
+#auto-img{
+  background: url("https://i.imgur.com/mPAvCvc.png") no-repeat center;
+  background-size: contain;
+  height: 800px;
+  width: 100%;
+}
+#auto-img h2{
+  color: rgb(255, 106, 80);
+  
+}
+
+@media only screen and (min-width: 480px){
+  /* for computer or tablets*/
+  .navbar-nav{
+    padding-right: 100px;
+  }
+  
+  .nav-item{
+    padding: 20px;
+  }
+  #why_choose_us h1{
+    font-size: 50px;
+  }
+  #why_choose_us ul{
+    padding-top: 10px;
+  }
+  #why_choose_us li{
+    font-size: 35px;
+  }
+  #services h2{
+    font-size: 50px;
+  }
+  #auto-img{
+    margin-top: -180px;
+  }
+  #auto-img h2{
+    padding-top: 320px;
+    font-weight: bold;
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  /* for phones */
+  .jumbotron-fluid{
+    background-image: url("https://i.imgur.com/GRu291B.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    top: 10px;
+    background-position: center;
+    position: relative;
+    }
+    .jumbotron-fluid h1{
+      position: relative;
+      margin: 0 auto;
+      font-size: 75px;
+      color: rgb(255, 106, 80);
+      border: rgb(53, 111, 130) 5px solid;
+      top: 100px;
+      width: 310px;
+      text-align: center;
+      padding-bottom: 8px;
+      font-style: normal;
+      }
+    .nav-link , .nav-item {
+      text-align: center;
+        
+    }
+    #why_choose_us h1{
+      font-size: 38px;
+    }
+    #why_choose_us li{
+      font-size: 18px;
+    }
+    
+    #auto-img{
+      background-image: url("https://i.imgur.com/PMspVn8.png");
+      background-size: cover;
+      width: 100%;
+      height: 300px;
+      background-repeat: no-repeat;
+      background-position: bottom center;
+      position: relative;
+      padding-top: 50px;
+      margin-bottom: 30px;
+    }
+    #auto-img h2{
+      padding-top: 70px;
+      font-size: 50px;
+      padding-left: 210px;
+    }
+    .container-fluid .row{
+      margin-left: -200px;
+    }
+  }
