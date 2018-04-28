@@ -50,6 +50,18 @@
   color: rgb(255, 106, 80);
   
 }
+#home-img{
+  background: url("https://i.imgur.com/fPV0qBw.png") no-repeat center;
+  background-size: contain;
+  width: 100%;
+  height: 869px;
+}
+#comm-img{
+  background: url("https://i.imgur.com/XgyA2ka.png") no-repeat center;
+  background-size: contain;
+  height: 715px;
+  width: 100%;
+}
 
 @media only screen and (min-width: 480px){
   /* for computer or tablets*/
@@ -79,6 +91,22 @@
     padding-top: 320px;
     font-weight: bold;
     font-size: 70px;
+  }
+  #home-img{
+    margin-top: -420px;
+  }
+  #home-img h2{
+    padding-top: 320px;
+    font-size: 70px;
+    font-weight: bold;
+  }
+  #comm-img{
+    margin-top: -530px;
+  }
+  #comm-img h2{
+    padding-top: 350px;
+    font-size: 70px;
+    font-weight: bold;
   }
 }
 
@@ -115,7 +143,9 @@
     #why_choose_us li{
       font-size: 18px;
     }
-    
+    .container-fluid .row{
+      margin-left: -160px;
+    }
     #auto-img{
       background-image: url("https://i.imgur.com/PMspVn8.png");
       background-size: cover;
@@ -132,7 +162,31 @@
       font-size: 50px;
       padding-left: 210px;
     }
-    .container-fluid .row{
-      margin-left: -200px;
+    #home-img{
+      background: url("https://i.imgur.com/arhYzXS.png") no-repeat center;
+      background-size: cover;
+      width: 100%;
+      height: 700px;
+      position: relative;
+      margin-top: -170px;
     }
+    #home-img h2{
+      padding-top: 320px;
+      font-size: 50px;
+      padding-left: 120px;
+    }
+    #comm-img{
+      background: url("https://i.imgur.com/wZULMV5.png") no-repeat center;
+      background-size: cover;
+      width: 100%;
+      height: 550px;
+      position: relative;
+      margin-top: -225px;
+    }
+    #comm-img h2{
+      padding-top: 240px;
+      font-size: 50px;
+      padding-left: 210px;
+    }
+
   }
