@@ -6,10 +6,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title> Estela Portillo Insurance Services
+    </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{% static 'website/css/idk.css' %}">
-
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function () { try { w.yaCounter48284132 = new Ya.Metrika({ id: 48284132, clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true }); } catch (e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script>
+    <noscript>
+        <div>
+            <img src="https://mc.yandex.ru/watch/48284132" style="position:absolute; left:-9999px;" alt="" />
+        </div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -26,33 +34,9 @@
         <div class="lol">
             <nav class="navbar navbar-expand-lg navbar-light " style="background-color: white">
 
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand navbar-logo mx-auto" href="#">
                     <img src="https://i.imgur.com/zoHoex1.png" alt="twfg logo" style="width:241px;" class="img-fluid">
                 </a>
-
-                <!--Add here -->
-                <button class="navbar-toggler float-xs-right" type="button" class="pull-left navbar-toggle" data-toggle="collapse" data-target="#navbarSupportedContent">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!--Add here -->
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto ">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Products</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-
             </nav>
         </div>
     </div>
@@ -95,8 +79,9 @@
             </div>
         </div>
     </div>
+    <div id="border1"></div>
     <!-- About Us-->
-    <div class="container-fluid">
+    <div class="container text-center">
         <div id="about_us">
             <h1>About Us</h1>
             <p>We are a family owned office that has serving the Houston area since 2006 with all insurance needs.
@@ -107,6 +92,105 @@
                 <br> your looking for on-demand support, something big chain companies can't provide, you have found the ideal
                 place. We are always one call away to answer any and all question you may have.</p>
         </div>
+    </div>
+    <!-- footer-->
+    <div class="container-fluid">
+        <div class="text-center" id="footer">
+            <h1>Contact Us</h1>
+            <p>Email: estelatwfg@hotmail.com</p>
+            <p>Office: (832)446-6350</p>
+            <p>Mobile: (281)701-7397</p>
+            <p>Fax: (832)446-6418</p>
+            <p>4420 Cypress Creek Pkwy
+                <br> Suite 201</p>
+            <a href="https://www.facebook.com/Estela-Portillo-Twfg-Insurance-210860899505324/" target="_blank">
+                <img src="https://i.imgur.com/YJPKBL5.png" alt="facebook" id="facebook">
+            </a>
+        </div>
+    </div>
+    <!--Map-->
+    <div class="container-fluid">
+        <div id="map">
+            <script>
+                function initMap() {
+                    // Create a new StyledMapType object, passing it an array of styles,
+                    // and the name to be displayed on the map type control.
+
+
+                    // Create a map object, and include the MapTypeId to add
+                    // to the map type control.
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        center: { lat: 29.989525, lng: -95.496559 },
+                        zoom: 16,
+                        styles: [
+                            {
+                                "featureType": "administrative.land_parcel",
+                                "elementType": "labels",
+                                "stylers": [
+                                    {
+                                        "visibility": "off"
+                                    }
+                                ]
+                            },
+                            {
+                                "featureType": "administrative.neighborhood",
+                                "stylers": [
+                                    {
+                                        "visibility": "off"
+                                    }
+                                ]
+                            },
+                            {
+                                "featureType": "poi",
+                                "elementType": "labels.text",
+                                "stylers": [
+                                    {
+                                        "visibility": "off"
+                                    }
+                                ]
+                            },
+                            {
+                                "featureType": "poi.business",
+                                "stylers": [
+                                    {
+                                        "visibility": "off"
+                                    }
+                                ]
+                            },
+                            {
+                                "featureType": "poi.park",
+                                "elementType": "labels.text",
+                                "stylers": [
+                                    {
+                                        "visibility": "off"
+                                    }
+                                ]
+                            },
+                            {
+                                "featureType": "road.local",
+                                "elementType": "labels",
+                                "stylers": [
+                                    {
+                                        "visibility": "off"
+                                    }
+                                ]
+                            }
+                        ]
+                    });
+                    var uluru = { lat: 29.989525, lng: -95.496559 };
+                    var marker = new google.maps.Marker({
+                        position: uluru,
+                        map: map
+                    });
+                    //Associate the styled map with the MapTypeId and set it to display.
+
+
+                }
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpFicvIMk-qD0f4-YkagX6QVFXR0prLBs&callback=initMap">
+            </script>
+        </div>
+
     </div>
 </body>
 

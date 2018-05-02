@@ -1,3 +1,27 @@
+.container-fluid{
+  padding: 0 !important;
+  overflow: hidden;
+}
+.navbar-logo{
+  width: 500px;
+  text-align: center;
+}
+#banner{
+  min-height: 40px;
+  height:auto;
+  width: 100%;
+  color: black;
+  background-color: rgba(255, 255, 255,.8);
+  margin: 0 auto;
+  z-index: 8;
+  position: absolute;
+  top: 148px;
+}
+#banner h4{
+  padding-top: 11px;
+  font-weight: bold;
+  font-size: 18px;
+}
 .jumbotron-fluid{
   background-image: url("https://i.imgur.com/GRu291B.jpg");
   background-size: cover;
@@ -62,6 +86,35 @@
   height: 715px;
   width: 100%;
 }
+#border1 {
+  border-bottom: rgba(211, 211, 221, .5) solid 3px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: -80px;
+}
+#about_us{
+  color: rgb(53, 111, 130);
+  padding-top: 35px;
+}
+#about_us h1{
+  color: rgb(255, 106, 80);
+}
+
+#footer{
+  padding-top: 15px;
+  background: rgba(80, 97, 102, 1);
+}
+#footer h1{
+  color: rgb(255, 106, 80);
+}
+#facebook{
+  height: 60px;
+  padding-bottom: 10px;
+}
+#map{
+  height: 400px;
+}
+
 
 @media only screen and (min-width: 480px){
   /* for computer or tablets*/
@@ -107,6 +160,15 @@
     padding-top: 350px;
     font-size: 70px;
     font-weight: bold;
+  }
+  #about_us h1{
+    font-size: 50px;
+  }
+  #about_us p{
+    font-size: 30px;
+  }
+  #footer p {
+    font-size: 30px;
   }
 }
 
@@ -187,6 +249,19 @@
       padding-top: 240px;
       font-size: 50px;
       padding-left: 210px;
+    }
+    #border1{
+      border-bottom: rgba(211, 211, 221, .5) solid 3px;
+      width: 90%;
+      margin: 0 auto;
+      margin-top: -80px;
+    }
+    #about_us{
+      margin-top: -20px;
+    }
+
+    #about_us h1{
+      font-size: 38px;
     }
 
   }
